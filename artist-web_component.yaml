@@ -17,5 +17,5 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: artist-relations-team
+  owner: team-a
   system: public-websites
