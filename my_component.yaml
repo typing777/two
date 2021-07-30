@@ -1,11 +1,12 @@
-apiVersion: backstage.io/v1alpha1
+apiVersion: backstage.io/v1alpha123
 kind: Component
 metadata:
-  name: my-artist-lookup
-  description: My Artist Lookup
+  name: my-artist-lookup-more
+  description: My Artist Lookup More
   tags:
     - java
     - data
+    - nodejs
   links:
     - url: https://example.com/user
       title: Examples Users
@@ -31,7 +32,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-X
-  system: artist-engagement-portal
+  owner: team-a
+  system: artist-engagement-portal-x
   dependsOn: ['resource:artists-db']
   
